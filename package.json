@@ -1,0 +1,22 @@
+{
+  "name": "app",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "webpack --progress --mode=production",
+    "watch": "webpack --progress --watch --mode=development"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "vue": "^3.0.7"
+  },
+  "devDependencies": {
+    "@vue/compiler-sfc": "^3.0.7",
+    "vue-loader": "^16.1.2",
+    "webpack": "^5.24.4",
+    "webpack-cli": "^4.5.0"
+  }
+}
